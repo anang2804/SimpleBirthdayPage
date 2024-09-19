@@ -1,0 +1,29 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:white;
+}
+
+.text-container {
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 800px;
+    max-width: 100%;
+}
+
+.card img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
