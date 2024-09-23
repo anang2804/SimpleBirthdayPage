@@ -61,6 +61,10 @@ body {
     margin-bottom: 0;
 }
 
+audio {
+    display: none;
+}
+
 /* Media Queries for Responsive Design */
 @media only screen and (max-width: 768px) {
     .card {
@@ -68,26 +72,25 @@ body {
         width: 90%;
         margin: 10px;
     }
-    
+
     .card img {
         width: 100%;
     }
-    
+
     .card h1 {
         font-size: 2.2em;
     }
-    
+
     .card p {
         font-size: 1.1em;
     }
 }
 
-/* Additional Media Query for Extra Small Devices */
 @media only screen and (max-width: 480px) {
     .card h1 {
         font-size: 2em;
     }
-    
+
     .card p {
         font-size: 1em;
     }
